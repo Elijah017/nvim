@@ -51,5 +51,10 @@ return require('packer').startup(function(use)
 		}
 	}
 	--LSP end
+    
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 
 end)

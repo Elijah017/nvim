@@ -1,2 +1,2 @@
-require("elijah.remap")
 require("elijah.set")
+require("elijah.remap")
