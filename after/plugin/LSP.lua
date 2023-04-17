@@ -1,10 +1,9 @@
 local lsp = require('lsp-zero').preset({})
 
 lsp.ensure_installed({
-	'jdtls',
 	'rust_analyzer',
 	'clangd',
-	'sqls',
+    'marksman',
 })
 
 local cmp = require('cmp')
