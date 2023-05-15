@@ -32,13 +32,13 @@ vim.opt.termguicolors = true
 
 -- ensures atleast 10 lines between cursor and the
 -- top/bottom of the screen
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 100
 vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "134"
 
 vim.g.mapleader = " "
 
