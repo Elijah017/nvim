@@ -13,10 +13,14 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+    -- Colour Themes
 	use { 
 		"catppuccin/nvim", 
 		as = "catppuccin" 
 	}
+    use { "colevoss/nvimpire" }
+    use { "folke/tokyonight.nvim" }
+    -- End Colour Themes
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('nvim-treesitter/playground')

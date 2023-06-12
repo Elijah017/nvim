@@ -124,11 +124,6 @@ _G.packer_plugins = {
     path = "/home/elijah/.local/share/nvim/site/pack/packer/start/nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
   },
-  ["nvim-jdtls"] = {
-    loaded = true,
-    path = "/home/elijah/.local/share/nvim/site/pack/packer/start/nvim-jdtls",
-    url = "https://github.com/mfussenegger/nvim-jdtls"
-  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/elijah/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
@@ -143,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/elijah/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  nvimpire = {
+    loaded = true,
+    path = "/home/elijah/.local/share/nvim/site/pack/packer/start/nvimpire",
+    url = "https://github.com/colevoss/nvimpire"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -163,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/elijah/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/elijah/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   undotree = {
     loaded = true,
