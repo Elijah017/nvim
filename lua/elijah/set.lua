@@ -6,10 +6,10 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 
 -- sets the tabsize to 4
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
+vim.opt.tabstop = 2 -- the number of chars displaced by \t
+vim.opt.softtabstop = 2 -- the number of ' ' representing \t
+vim.opt.shiftwidth = 2 -- The indentation qualifier
+vim.opt.expandtab = true -- Sets tab to place ' ' rather than \t
 
 -- turn on smart indent
 vim.opt.smartindent = true
