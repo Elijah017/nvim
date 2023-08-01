@@ -44,3 +44,5 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 vim.keymap.set("n", "<leader>ma", "<cmd>Mason<CR>")
+
+vim.keymap.set("n", "<c-u>", vim.cmd.UndotreeFocus)
