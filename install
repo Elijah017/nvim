@@ -1,0 +1,9 @@
+#! /usr/bin/sh
+
+sudo apt-get install ripgrep -y
+sudo apt install unzip fd-find npm fontforge -y
+snap install dotnet-sdk --classic
+
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
