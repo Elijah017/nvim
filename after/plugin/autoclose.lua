@@ -1,4 +1,1 @@
-require('autoclose').setup({
-  keys = {
-  },
-})
+require('autoclose').setup()

@@ -65,6 +65,8 @@ use {
 
 use 'm4xshen/autoclose.nvim'
 
-use 'windwp/nvim-ts-autotag'
+use {'windwp/nvim-ts-autotag'}
+
+-- use = 'neoclide/coc.nvim'
 
 end)
